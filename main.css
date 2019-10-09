@@ -17,11 +17,12 @@ ul {
 }
 /*Header**/
 header {
-    background: #35424a;
+    background: #116832;
     color: #ffffff;
     padding-top:30px;
     min-height: 70px;
     border-bottom:#e8491d 3px solid;
+    font-family: 'Vesper Libre', serif;
 }
 
 header a{
@@ -54,4 +55,24 @@ header nav{
 header .highlight, header .current a{
     color:#e8491d;
     font-weight:bold;
+}
+
+/*Showcase*/
+#showcase {
+    min-height: 400px;
+    background: url('./images/pumpkinpatch.jpg') no-repeat 0 -1100px;
+    text-align: center;
+    color:#ffffff;
+    text-shadow: 4px 2px 4px #000000;
+    font-family: 'Vesper Libre', serif;
+}
+
+#showcase h1 {
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:30px;
 }
