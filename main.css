@@ -2,7 +2,7 @@ body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #fffddf;
 }
 
 /*Global*/
@@ -48,8 +48,13 @@ header #branding h1{
 }
 
 header nav{
-    float:right;
-    margin-top:
+   float: right;
+   padding-right: 300px;
+   padding-top: 15px;
+}
+
+header nav ul li {
+    margin: 20px;
 }
 
 header .highlight, header .current a{
@@ -75,4 +80,32 @@ header .highlight, header .current a{
 
 #showcase p{
     font-size:30px;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    margin: ;
+    padding-left: 15rem;
+    padding-right: 20rem;
+    background-color: rgb(241, 197, 131);
+    font: 1 rem 'Fira Sans', sans-serif;
+    border: 5px solid green;
+}
+
+.newsletter h1 {
+    margin: .5rem;
+    padding-left: 10rem;
+    font-size: 2rem;
+}
+
+.newsletter #newsbox {
+    margin-top: 20px;
+}
+
+
+
+/*footer*/
+footer {
+    text-align: center;
 }
